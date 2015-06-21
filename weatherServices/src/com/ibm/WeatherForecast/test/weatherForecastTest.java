@@ -25,7 +25,7 @@ public class weatherForecastTest {
 		System.out.println("Obeservation ID: "+observation.getId());
 		System.out.println("Obeservation Tempreture: "+observation.getTempreture());
 		System.out.println("Obeservation Weather: "+observation.getWeather());
-		System.out.println("helloooooo");
+		//System.out.println("helloooooo");
 	}
 
 }
