@@ -20,12 +20,13 @@ public class weatherForecastTest {
 		for(Location location: locations){
 			System.out.println("Location ID: "+location.getId()+" , Locatio City: "+ location.getCity());
 		}
-		
+	
 		Observation observation = WeatherForecastService.getObservation(1);
 		System.out.println("Obeservation ID: "+observation.getId());
 		System.out.println("Obeservation Tempreture: "+observation.getTempreture());
 		System.out.println("Obeservation Weather: "+observation.getWeather());
-		System.out.println("helloooooo");
+		
+		
 	}
 
 }

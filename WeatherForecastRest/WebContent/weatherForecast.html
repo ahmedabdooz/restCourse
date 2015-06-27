@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript"
+	djconfig="isDebug: false, parseOnLoad: true" src="dojo.js"></script>
+<script type="text/javascript" src="weatherForecast.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Welcome to Weahter Foreacst Application</h2>
+	<button type="button" onclick="viewAllLications()">View All Locations</button>
+	<br/><br/><select id="locationSelection" style="display: none;" onchange="getObservation()">
+<option value=""></option>
+</select>
+<br/><br/>
+<div id="observationDiv" style="height:100px; width:300px; color: red; background-color: lime"></div>
+</body>
+</html>
